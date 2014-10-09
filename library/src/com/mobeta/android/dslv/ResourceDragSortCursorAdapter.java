@@ -44,7 +44,7 @@ public abstract class ResourceDragSortCursorAdapter extends DragSortCursorAdapte
      * @deprecated This option is discouraged, as it results in Cursor queries
      * being performed on the application's UI thread and thus can cause poor
      * responsiveness or even Application Not Responding errors.  As an alternative,
-     * use {@link android.app.LoaderManager} with a {@link android.content.CursorLoader}.
+     * use {@link android.support.v4.app.LoaderManager} with a {@link android.content.CursorLoader}.
      *
      * @param context The context where the ListView associated with this adapter is running
      * @param layout resource identifier of a layout file that defines the views

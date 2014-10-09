@@ -75,7 +75,7 @@ public class SimpleDragSortCursorAdapter extends ResourceDragSortCursorAdapter {
      * @deprecated This option is discouraged, as it results in Cursor queries
      * being performed on the application's UI thread and thus can cause poor
      * responsiveness or even Application Not Responding errors.  As an alternative,
-     * use {@link android.app.LoaderManager} with a {@link android.content.CursorLoader}.
+     * use {@link android.support.v4.app.LoaderManager} with a {@link android.content.CursorLoader}.
      */
     @Deprecated
     public SimpleDragSortCursorAdapter(Context context, int layout, Cursor c, String[] from, int[] to) {
